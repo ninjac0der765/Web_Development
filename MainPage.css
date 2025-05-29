@@ -1,0 +1,29 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(27, 229, 0);
+}
+h1{
+    color: rgb(41, 138, 19);
+}
+.websites{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.link-webpage{
+    display: inline-block;
+    font-size: large;
+    color: rgb(0, 204, 255);
+    background-color: rgb(0, 8, 255);
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    padding: 12px 24px;
+    margin-bottom: 12px;
+}
+.link-webpage:hover{
+    background-color: white;
+}

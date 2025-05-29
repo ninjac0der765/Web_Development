@@ -1,0 +1,35 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: cyan;
+    padding: 20px;
+}
+h1{
+    color: blue;
+}
+.store{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.product{
+    background-color: darkcyan;
+    border: 6px double blue;
+    padding: 15px;
+    width: 180px;
+    border-radius: 7px;
+}
+.product p{
+    color: red;
+}
+nav{
+    font-size: 19px;
+}
+header{
+    box-shadow: 12px 0px 10px grey;
+}
+nav a{
+    padding: 15px 15px;
+    color: rgb(255, 0, 0);
+}

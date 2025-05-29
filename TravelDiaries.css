@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+    text-align: left;
+}
+.mediadiv{
+border: 4px double darkblue;
+border-radius: 6px;
+}
+.para1{
+    font-family: cursive;
+    color: blue;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 90);
+}
+.logo{
+    display: inline-block;
+}
+nav{
+    float: right;
+    margin-top: 10px;
+    font-size: 24px;
+}
+header{
+    box-shadow: 12px 0px 10px grey;
+}
+nav a{
+    padding: 20px 20px;
+}
