@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            bulb clicker
+        </title>
+    </head>
+    <body id="body1">
+        <h2>
+            turning the bulb on and off
+        </h2>
+        <img src="images/pic_bulboff.gif" alt="" id="img1" style="width: 100px;">
+        <button onclick="turn_on_bulb()">
+            turn on bulb
+        </button>
+        <script>
+            function turn_on_bulb(){
+                document.getElementById("img1").src="images/pic_bulbon.gif";}
+        </script>
+        <button onclick="turn_off_bulb()">
+             turn off bulb
+        </button>
+        <script>
+            function turn_off_bulb(){
+                document.getElementById("img1").src="images/pic_bulboff.gif";}
+        </script>
+    </body>
+</html>
